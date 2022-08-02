@@ -25,6 +25,7 @@ img {
 .hero {
     background-image: url("images/torshov.jpg");
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
