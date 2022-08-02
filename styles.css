@@ -1,0 +1,131 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 343px;
+    text-shadow: 0 0 1px black;
+    color: whitesmoke;
+}
+
+h1 {
+    background-color: #1D3557;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+h2 {
+    background-color: #457B9D;
+    font-size: 15px;
+}
+
+h1, h2 {
+    border-radius: 8px;
+    padding: 5px 10px
+}
+
+.activities {
+    background-color: #F1FAEE;
+    color: #1D3557
+}
+
+#activities-head {
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+.activity-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.activity-container img {
+    border-radius: 50%;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.img-container h4 {
+    font-size: 15px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.img-container p {
+    font-size: 12px;
+}
+
+#guide {
+    background-color: #A8DADC;
+    width: 400px;
+    margin: 40px auto;
+    border-radius: 8px;
+    border-bottom: 5px solid #1D3557;
+    padding: 20px;
+}
+
+#guide-img {
+    width: 180px;
+}
+
+#guide-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+#guide-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#guide-text h3 {
+    font-size: 20px;
+}
+
+#guide-text p {
+    font-style: italic;
+    font-size: 15px;
+    margin: 20px;
+}
+
+#guide-text h4 {
+    font-size: 15px;
+}
+
