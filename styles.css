@@ -24,13 +24,15 @@ img {
 
 .hero {
     background-image: url("images/torshov.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 343px;
     text-shadow: 0 0 1px black;
     color: whitesmoke;
 }
